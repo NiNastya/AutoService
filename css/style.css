@@ -1,0 +1,107 @@
+:root {
+    --bg: #1c2025;
+    --cw: #fff;
+    --c1: #232b33;
+    --cb: #228bef;
+}
+h1, h2 {
+    font-size: 64px;
+    color: var(--cb);
+}
+
+.btn-1 {
+    background-color: var(--cb);
+    color: var(--cw);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-2 {
+    background-color: var(--c1);
+    color: var(--cw);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    margin: 5px;
+}
+
+.sub-title {
+    font-size: 22px;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--cw);
+}
+
+.slider {
+    background: url(/img/h11.webp);
+    background-position: 50%;
+    object-fit: cover;
+}
+
+.slider .row {
+    min-height: 500px;
+}
+
+.slider col {
+    margin: auto 0;
+}
+
+.card {
+    background-color: var(--c1);
+}
+
+.card-title {
+    font-size: 22px;
+}
+
+.num {
+    color: var(--cb);
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.card:hover .num {
+    color: var(--cw);
+}
+
+.phone {
+    background-color: var(--c1);
+}
+
+.ynikalni .img {
+    margin: 30px 20px;
+    padding: 10px;
+    background-color: var(--cw);
+    border: solid 2px var(--cb);
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+.ynikalni img {
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    background-color: var(--c1);
+}
+
+.cont {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about .num_t {
+    font-size: 18px;
+}
+
+.about img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
